@@ -2,7 +2,7 @@
   "name": "Minha Aplicação",
   "short_name": "App",
   "description": "Esta é uma aplicação web simples.",
-  "start_url": "/",
+  "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#5fbf38",
