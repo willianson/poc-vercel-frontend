@@ -2,18 +2,18 @@
   "name": "Minha Aplicação",
   "short_name": "App",
   "description": "Esta é uma aplicação web simples.",
-  "start_url": "/index.html",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#5fbf38",
   "icons": [
     {
-      "src": "/icons/android-192x192.png",
+      "src": "icons/android-192x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/icons/android-512x512.png",
+      "src": "icons/android-512x512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
