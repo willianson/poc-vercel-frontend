@@ -1,5 +1,3 @@
 
-## POC Supabase
-
-Project to practice deploy frontend 
-on **Netlify** and backend on **Supabase**.
+## POC Vercel Backend deploy
+Project to understand the Vercel hosting service.
