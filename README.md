@@ -1,53 +1,39 @@
 
-# Vercel API Hosting
-Project to understand the Vercel hosting service.
+# Vercel PWA Hosting
+Project to understand the Vercel hosting service for static files.
 
 ### About the experience
-
+> Surprising, much easier than I expected... The name Vercel made me worried, but deploying a REST app on Vercel's serverless service takes less than 3 minutes. Sign up with your GitHub account, select the repository, and boom... perfect.
+>
+> When I wrote this POC, I was with two people looking to learn JavaScript and PWA Foundation, so this code was worth teaching them both simultaneously.
+> 
+> -- Willianson Araújo
 
 ### About the application
-This is a simple Node.js API that returns a list of products, allowing filtering by price, category, and name. 
-The API supports multi query parameters to perform the filtering.
+This project is a simple web application hosted on Vercel. 
+It is designed to practice deploying apps on the Vercel platform and applies concepts like Progressive Web Apps (PWA), and deployment.
 
 ### 
 
-### Endpoints
+### Address
 **Root API Address:** 
+https://poc-vercel-frontend.vercel.app
+
+**The test**
+You can go ahead and access the address above and install it on your Home Screen.
+
+**Desire**
+After this base, we'd like to show how to integrate with an API using the Fetch API. But, unfortunately, the time is gone.
+
+API to integrate:
 https://poc-vercel-backend.vercel.app/products
-
-**Query Params**
-
-- `priceLower`: (Optional) Filters products with a price lower or equal to the specified value.
-- `category`: (Optional) Filters products by category.
-- `name`: (Optional) Filters products by name, allowing partial name matches (case-insensitive).
-
-
-**Examples**<br>
-- [GET /products](https://poc-vercel-backend.vercel.app/products)
-- [GET /products?priceLower=100](https://poc-vercel-backend.vercel.app/products?priceLower=100)
-- [GET /products?category=Electronics](https://poc-vercel-backend.vercel.app/products?category=Electronics)
-- [GET /products?category=Electronics&priceLower=100](https://poc-vercel-backend.vercel.app/products?category=Electronics&priceLower=100)
 
 
 ## Running the Project
 ### Prerequisites
-- [Node.js](https://nodejs.org) installed.
-- A package manager like `npm` or `yarn` installed.
+- Just a browser on your phone. 📞
 
 ### Installation
 1. Clone the repository or copy the source code.
 2. Navigate to the project directory.
-3. Run the following command to install the dependencies:
-
-  ```
-  $ yarn
-  ```
-
-### Starting the Server
-To start the server, run:
-
-  ```
-  $ node index.js
-  ```
-
-The application is running on your http://localhost:3000
+3. Open the index.html file.
