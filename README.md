@@ -16,17 +16,15 @@ It is designed to practice deploying apps on the Vercel platform and applies con
 ### 
 
 ### Address
-**Root API Address:** 
+**Root API Address:** <br>
 https://poc-vercel-frontend.vercel.app
 
-**The test**
+**The test**<br>
 You can go ahead and access the address above and install it on your Home Screen.
 
-**Desire**
-After this base, we'd like to show how to integrate with an API using the Fetch API. But, unfortunately, the time is gone.
+**Desire**<br>
+After this base, we'd like to show how to [integrate with an API](https://github.com/willianson/poc-vercel-backend) using the Fetch API. But, unfortunately, the time is gone.
 
-API to integrate:
-https://poc-vercel-backend.vercel.app/products
 
 
 ## Running the Project
